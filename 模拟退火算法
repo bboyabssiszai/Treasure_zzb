@@ -1,0 +1,15 @@
+#模拟退火算法
+input(the initial solution)
+disturb it and save the new solution
+if the new is the best
+  accept it
+else
+  accept it by Metropolis principle
+if reach the iteration's standard
+  if is satisfied with condition
+    output
+  else
+    low the temperature slowly and reset the iteration's times
+else
+  disturb it and save the new solution
+
